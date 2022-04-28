@@ -1,0 +1,27 @@
+button {
+    height: 50px;
+    width: 50px;
+    margin: 2px;
+}
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.calculator {
+    border: 2px solid black;
+}
+
+.fifthRow button {
+    width: 224px;
+}
+.displayResult {
+    width: 200px;
+    height: 50px;
+    margin-left: 12px;
+    text-align: end;
+}
+h3 {
+    margin: 5px;
+}
