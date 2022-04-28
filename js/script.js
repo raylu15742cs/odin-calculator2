@@ -59,6 +59,6 @@ evaluateListen.forEach(item => {item.addEventListener('click', event => {
 const clearListen = document.querySelectorAll('.clear');
 clearListen.forEach(item => {item.addEventListener('click', event => {
     score.innerHTML ='';
-    item.innerHTML ='';
+    input.innerHTML ='';
     })
 })
