@@ -19,14 +19,14 @@ let divide = function(one,two) {
 
 //2 Operate Function
 
-let operate = function(first,second,commands) {
-    if (commands === '+'){
+let operate = function(operator,first,second) {
+    if (operator === '+'){
         add(first,second);
-    } else if (commands === '-') {
+    } else if (operator === '-') {
         subtract(first,second);
-    } else if (commands === '*') {
+    } else if (operator === '*') {
         multiply(first,second);
-    } else if (commands === '/') {
+    } else if (operator === '/') {
         divide(first,second);
     }
     return result;
