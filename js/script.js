@@ -7,7 +7,7 @@ let command = '';
 result = 0;
 // a. add
 let add = function(one,two) {
-    result = one + two;
+    result = parseInt(one) + parseInt(two);
 }
 // b. subtract
 let subtract = function(one,two) {
